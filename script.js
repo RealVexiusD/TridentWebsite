@@ -1,4 +1,3 @@
-// Fade in features on scroll
 const features = document.querySelectorAll('.feature');
 
 window.addEventListener('scroll', () => {
