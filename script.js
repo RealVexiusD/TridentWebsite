@@ -11,7 +11,6 @@ window.addEventListener('scroll', () => {
   });
 });
 
-// Hero canvas particles
 const canvas = document.getElementById('hero-canvas');
 const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
@@ -45,3 +44,4 @@ window.addEventListener('resize', () => {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
 });
+
